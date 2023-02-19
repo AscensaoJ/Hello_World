@@ -5,8 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <p>Hello world.</p>
+    <div id="main">
+        <div id="login-container">
+            <span class="header">Sign In</span>
+            <span class="login-content">
+                <!--<label for="user">Username</label>-->
+                <input type="text" id="user" class="login-content" placeholder="Username">
+                <!-- <label for="pass" class="login-content">Password</label> -->
+                <input type="password" class="login-content" id="pass" placeholder="Password" minlength="8">
+            </span>
+            <button>Submit</button>
+        </div>
+    </div>
 </body>
 </html>
